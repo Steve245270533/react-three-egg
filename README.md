@@ -1,30 +1,32 @@
-# React + TypeScript + Vite
+## react-three-egg（蛋仔派对three.js版）
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 项目介绍
 
-Currently, two official plugins are available:
+<img src="cover.png" alt="cover.png" style="zoom: 67%;" />  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+利用`react` + `threejs`技术栈构建的第三人称Q版闯关类游戏
 
-## Expanding the ESLint configuration
+### 操作
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+行走：`↑` / `↓` / `←` / `→`（方向键）  
 
-- Configure the top-level `parserOptions` property like this:
+跳跃：`空格`
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### 技术栈
+- `react`
+- `three`
+- `@react-three/fiber` 
+- `@react-three/rapier`
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+> **说明：**  
+> 
+> 本项目源码并非本人开发，原作者信息如下  
+> 
+> 本仓库在源代码基础上，去除了多人（WebRTC）逻辑，更换为`vite`，简化了部分代码逻辑，并适量提高代码可读性。供大家入门学习。开源不易，感谢大家多多star⭐⭐⭐
+> 
+> [GitHub主页](https://github.com/wiledal)  
+>
+> [原作者codesandbox](https://codesandbox.io/u/wiledal)  
+>
+> [原项目在线地址](https://codesandbox.io/p/sandbox/trip-fellas-wip-9d4vm9)  
+
